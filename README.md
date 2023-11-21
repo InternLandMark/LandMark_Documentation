@@ -17,25 +17,17 @@ There are many one-of-a-kind highlights in the LandMark:
 - Training, rendering integrated system:
     - We delivered a system covering algorithms, operators, and computing systems, which serves as a solid foundation for the training, rendering, and application of real-world 3D large models.
 
-
 To achieve better performance, we use several optimisation strategies, and this document provides an introduction to the following strategies:
 
-- [Introduction](#introduction)
 - [Parallel Strategies](#parallel-strategies)
-  - [Branch Parallel](#branch-parallel)
-  - [Plane Parallel](#plane-parallel)
-  - [Channel Parallel](#channel-parallel)
 - [Dynamic Fetching](#dynamic-fetching)
 
 # Parallel Strategies
 The LandMark supports multiple types of parallel strategies. With the strategies, we achieve huge NeRF speedups and make the NeRF truly applicable to city-scale reconstruction. These parallel strategies mainly include the following types:
 
-- [Introduction](#introduction)
-- [Parallel Strategies](#parallel-strategies)
-  - [Branch Parallel](#branch-parallel)
-  - [Plane Parallel](#plane-parallel)
-  - [Channel Parallel](#channel-parallel)
-- [Dynamic Fetching](#dynamic-fetching)
+- [Branch Parallel](#branch-parallel)
+- [Plane Parallel](#plane-parallel)
+- [Channel Parallel](#channel-parallel)
 
 Here we present how our Parallel methods work. Basic knowledge of NeRF are needed for better understanding.
 
